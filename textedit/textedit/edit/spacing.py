@@ -2,7 +2,7 @@
 
 """Changes spacing from single to double space for a given file.
 Outputs the new file as filename_double_spaced.txt or
-filename_single_spaced.txt as needed. 
+filename_single_spaced.txt as needed.
 
 Sysargs:  filename
 """
@@ -27,7 +27,7 @@ class Spacing(object):
         """Converts from single to double space after a period"""
         try:
             file_contents = self.open_file(self.filename)
-            with open('textedit/texts/double_space_%s' % self.basename, 'w')  as output:
+            with open('textedit/texts/double_space_%s' % self.basename, 'w') as output:
                 output.write(file_contents.replace(r'\.\s{1}', r'\.\s{2}'))
         except AssertionError:
             print("Single space not found")

@@ -14,7 +14,6 @@ class WC:
     """Conducts character, word, and letter count of object"""
 
     def __init__(self, filename):
-
         self.filename = filename
 
     def open_file(self, filename):

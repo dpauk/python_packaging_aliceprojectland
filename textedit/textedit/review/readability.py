@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
-"""Computes the Colman-Liau index for any given file. 
-Returns the grade level reading ability of the file. 
+"""Computes the Colman-Liau index for any given file.
+Returns the grade level reading ability of the file.
 
-More on The Colman-Liau Index 
+More on The Colman-Liau Index
 https://readable.io/content/the-coleman-liau-index:
 
-Formula: 
+Formula:
 
 L = average number of letters per 100 words and;
 S = average number of sentences per 100 words.
